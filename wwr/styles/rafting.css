@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: #00539C;
+    --secondary-color: #FBF8BE;
+    --accent1-color: #CCF381 ; 
+    --accent2-color: #4831D4 ;
+
+    --heading-font: 'Fontdiner Swanky', serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+
+    --nav-background-color: #FBF8BE;
+    --nav-link-color: #1E2761;
+    --nav-hover-link-color: #4831D4;
+    --nav-hover-background-color: #CCF381; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    padding: 20px;   
+    max-width: 840px; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+div.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;    
+    top: 5%;
+    background-color : rgb(0, 0, 0, 0.5);
+    width: 100%;     
+    color: #FBF8BE;
+    text-align: center;
+}
+
+.hero article {
+    position : absolute;
+    top: 20%;
+    left: 8%;
+    width : 80%;
+    background-color : rgb(0, 83, 156, 0.4);
+    padding: 1rem;    
+}
+
+.hero article p {
+    color: var(--secondary-color);
+    text-align : left;
+}
+
+.hero article img {
+    float: right;
+    width: 200px;
+    height: 150px;
+}
+
+
+
+
+
