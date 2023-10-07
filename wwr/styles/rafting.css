@@ -156,10 +156,9 @@ section {
 }
 
 figure {
-    padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
