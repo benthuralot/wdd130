@@ -28,19 +28,21 @@
             <legend>Questions</legend>
             <!-- form elements will go here -->
             <div class="form-item column1">
-                <label for="browser">What is your favorite browser?</label>
+                <label for="browser">What is your favorite browser?</label>            
+                <select id="browser" name="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="chrome">Firefox</option>
+                    <option value="chrome">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
             </div>
-            <select id="browser" name="browser">
-                <option value="chrome">Chrome</option>
-                <option value="chrome">Firefox</option>
-                <option value="chrome">Safari</option>
-                <option value="edge">Edge</option>
-                <option value="brave">Brave</option>
-                <option value="other">Other</option>
-            </select>
             <div class="form-item column1">
                 <label for="pet">Do you have a household pet</label>
-                <input type="checkbox" id="pet" name="pet">            
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+            <div class="form-item column1">            
                 <label for="feedback">List the places you have lived:</label>
             </div>
             <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
