@@ -37,7 +37,7 @@ form {
 
 fieldset {
     display: grid;
-    grid-gap: 05rem;
+    grid-gap: .5rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
@@ -76,7 +76,9 @@ button {
     border: none;
     border-radius: .5rem;
     padding: .75rem;
-    font-size: 1.2rem
+    font-size: 1.2rem;
+    color: #fff;
+    width: 25%;  
 }
 
 button:hover {
@@ -87,7 +89,7 @@ footer {
     margin: 1rem auto 0;
     width: 650px;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.8em;
     color: #777;
     border-top: 1px solid #ccc;
 }
@@ -104,9 +106,4 @@ footer {
 
 .column2 {
     grid-template-columns: 1fr 2fr;
-}
-
-button {
-    color: #fff;
-    width: 25%;    
 }
