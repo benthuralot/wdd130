@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&dsiplay=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -72,7 +72,6 @@ input[type="checkbox"] {
 button {
     margin: 1rem auto;
     background-color: navy;
-    columns: #fff;
     border: none;
     border-radius: .5rem;
     padding: .75rem;
