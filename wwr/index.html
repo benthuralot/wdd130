@@ -29,12 +29,17 @@
 
     
 <div class="container">
-    <div class="newsletter-form">
+    <form>
         <h1>Sign up for our Newsletter</h1>
-        <input type="text" placeholder="Your Name">
-        <input type="email" placeholder="Your Email">
-        <button>Subscribe</button>
-    </div>
+        <div class="form-item">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name"> 
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email address">            
+        </div> 
+        <button>Sign Up</button>       
+    </form>
     
     <div class="call-to-action">
         <p>Ready for an adventure? <a href="trips.html">Explore Our Trips</a></p>

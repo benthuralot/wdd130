@@ -264,7 +264,6 @@ form {
     border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
-    text-align: center;
 }
 
 label {
@@ -274,18 +273,22 @@ label {
 
 .form-item {
     padding: 1.5rem;
+    width: auto;
+    text-align: center;
 }
 
 .form-item label {
     text-align: left;
-    padding-right: 1rem;   
+    padding-left: 1rem;
+    padding-right: .5rem;   
      
 }
 
 .form-item input {
-    width: 25%;
     height: 1.5rem;
+    padding: .5rem;
     border-style: none;
+    border-radius: .5rem;
 }
 
 .message {
@@ -301,6 +304,7 @@ label {
 
 .subscribe {
     margin: 1rem;
+    text-align: center;
 }
 
 button {
@@ -413,22 +417,4 @@ button:hover {
 .call-to-action {
     text-align: center;
     margin: 2rem 0;
-}
-
-.newsletter-form {
-    text-align: center;
-    margin: 2rem 0;
-}
-
-.newsletter-form h1 {
-    margin-bottom: 2rem;
-    border-top: solid #1E2761;
-    padding-top: 1rem;
-}
-
-.newsletter-form input,
-.newsletter-form button {
-    margin: 0 10px;
-    padding: 10px;
-    font-size: 1rem;
 }
