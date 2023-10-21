@@ -82,7 +82,6 @@ header {
 
 header img {
     margin: 1rem auto;
-    display: flex;
     justify-content: space-around;
     width: 200px;
     height: auto;
@@ -90,7 +89,6 @@ header img {
 
 
 nav a {
-    text-decoration: none;
     font-family: var(--paragraph-font); 
     color: var(--nav-link-color); 
     
@@ -120,14 +118,12 @@ header nav {
 
 .history h2 {
     grid-column: 1/4;
-    display: flex;
     justify-content: center;
 }
 
 .history img {
     grid-column: 2;
     grid-row: 2;
-    display: flex;
     padding: 1rem;
 }
 
@@ -152,8 +148,8 @@ section {
 
 .adventure h2 {
     grid-column: 1/6;
-    display: flex;
     justify-content: center;
+    padding: 1rem;
 }
 
 figure {
@@ -177,7 +173,7 @@ footer {
 
 footer p {
     grid-column: 2;
-    text-align: center;
+    text-align: center;    
 }
 
 footer nav {
@@ -313,10 +309,9 @@ button {
     background-color: black;
     border: none;
     border-radius: .5rem;
-    padding: .75rem;
+    padding: 1rem;
     font-size: 1rem;
     color: #fff;
-    width: 15%;
     cursor: pointer;
 }
 
